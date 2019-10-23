@@ -6,9 +6,7 @@
     <title>Ovi Grupo 74</title>
     <link rel="stylesheet" href="CSS/estilos.css">
     <style type="text/css">
-
     </style>
-
 
 </head>
 
@@ -17,17 +15,35 @@
         <h1>Bienvenidos al Ovi de HTML y Css</h1>
     </header>
     <nav>
-        <h2>INICIO</h2>
+        <ul class="menu">
+            <li><a href="#">INICIO</a></li>
 
-        <nav class="menuhtml">
-        <h2>HTML</h2>
-        </nav>
+            <li class="desplegable">
+                <a class="btnDesplegable" href="#">LECTURAS</a>
+                <div class="contenidoDesplegable">
+                    <a href="#">Lectura 1</a>
+                    <a href="#">Lectura 2</a>
+                    <a href="#">Lectura 3</a>
+                </div>
+            </li>
+
+            <li class="desplegablevideo">
+                <a class="btnDesplegablevideo" href="#">VIDEOS</a>
+                <div class="contenidoDesplegablevideo">
+                    <a href="#">Video 1</a>
+                    <a href="#">Video 2</a>
+                </div>          
+            </li>
+
+
+            <li><a href="#">AUTORES</a></li>
+        </ul>
     </nav>
+
     <br>
     <br>
     <section class="contenedor">
         <h2> CONTENEDOR </h2>
-        <br>
         <section class="principal">
             <h2>OBJETIVOS DEL OVI</h2>
             <article class="articuloppal">
@@ -35,21 +51,24 @@
                 Exponer teóricamente las herramientas de HTML y CSS para que sean aplicados de forma correcta en el
                 desarrollo de sitios web. <BR></BR>
                 OBJETIVOS ESPECIFICOS <br>
-                Mostrar al lector la estructura básica de HTML y CSS. <br>
-                Definir el contenido de los estándares HTML y posicionamiento de elementos CSS en las páginas web. <br>
-                Enseñar la documentación para que el estudiante tenga buenas prácticas de programación al momento del
-                desarrollo
+                1. Mostrar al lector la estructura básica de HTML y CSS. <br>
+                2. Definir el contenido de los estándares HTML y posicionamiento de elementos CSS en las páginas web.
+                <br>
+                3. Enseñar la documentación para que el estudiante tenga buenas prácticas de programación al momento del
+                desarrollo.
             </article>
         </section>
         <aside>
-            <br><br><br>
+            <br>
             <h3>ASIDE 1</h3>
-            <a width="300" height="200" class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <br><br>
+            <a width="300" height="200" class="twitter-timeline"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <br>
         </aside>
         <BR></BR>
-    </section>
 
+    </section>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer class="piepagina">
         <p>Universidad Nacional Abierta y a Distancia UNAD <br>
