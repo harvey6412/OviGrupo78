@@ -52,7 +52,6 @@
     .menu li {
        display: inline-block;
     }
-    /*Desplegable lecturas*/
     li a, btnDesplegable {
         display: inline-block;
         color: black;
@@ -81,55 +80,8 @@
     li a:hover{
         background-color: white;
     }
-    /*Desplegable videos*/
-    li a, btnDesplegablevideo {
-        display: inline-block;
-        color: black;
-        padding: 0.9em 1em;
-        text-align: center;
-        text-decoration: none;
-    }
-    .contenidoDesplegablevideo{
-        display: none;
-        position: absolute;
-        background-color: blanchedalmond;
-        min-width: 8em;
-    }
-    .contenidoDesplegablevideo a{
-        color: black;
-        padding: 0.9em 1em;
-        display:block ;
-        text-align: left;
-    }
-    .contenidoDesplegablevideo a:hover{
-        background-color: grey;
-    }
-    .desplegablevideo:hover .contenidoDesplegablevideo{
-        display: block;
-    }
-    li a, btnDesplegableactividad {
-        display: inline-block;
-        color: black;
-        padding: 0.9em 1em;
-        text-align: center;
-        text-decoration: none;
-    }
-    .contenidoDesplegableactividad{
-        display: none;
-        position: absolute;
-        background-color: blanchedalmond;
-        min-width: 8em;
-    }
-    .contenidoDesplegableactividad a{
-        color: black;
-        padding: 0.9em 1em;
-        display:block ;
-        text-align: left;
-    }
-    .contenidoDesplegableactividad a:hover{
-        background-color: grey;
-    }
     .desplegableactividad:hover .contenidoDesplegableactividad{
         display: block;
     }
+    
 
