@@ -7,7 +7,8 @@
  }
     header{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: rgb(240,180,51);
+            color: white; font-size: 130%;
+            background-color:rgb(0,88,131);
             margin: auto;
             text-align: center;
          }
@@ -18,6 +19,8 @@
             }   
     
     nav {
+            font-family: 'Franklin Gothic Medium';
+            font-size: 150%;
             background-color: rgb(179,179,179);            
         }
         .contenedor {
@@ -44,10 +47,12 @@
             width: 24.7%;  
             border-radius: 0.3em;           
         }
+        
     /*Menu*/
     .menu li {
        display: inline-block;
     }
+    /*Desplegable lecturas*/
     li a, btnDesplegable {
         display: inline-block;
         color: black;
@@ -73,9 +78,10 @@
     .desplegable:hover .contenidoDesplegable{
         display: block;
     }
-
-
-    
+    li a:hover{
+        background-color: white;
+    }
+    /*Desplegable videos*/
     li a, btnDesplegablevideo {
         display: inline-block;
         color: black;
@@ -101,3 +107,29 @@
     .desplegablevideo:hover .contenidoDesplegablevideo{
         display: block;
     }
+    li a, btnDesplegableactividad {
+        display: inline-block;
+        color: black;
+        padding: 0.9em 1em;
+        text-align: center;
+        text-decoration: none;
+    }
+    .contenidoDesplegableactividad{
+        display: none;
+        position: absolute;
+        background-color: blanchedalmond;
+        min-width: 8em;
+    }
+    .contenidoDesplegableactividad a{
+        color: black;
+        padding: 0.9em 1em;
+        display:block ;
+        text-align: left;
+    }
+    .contenidoDesplegableactividad a:hover{
+        background-color: grey;
+    }
+    .desplegableactividad:hover .contenidoDesplegableactividad{
+        display: block;
+    }
+
