@@ -83,5 +83,9 @@
     .desplegableactividad:hover .contenidoDesplegableactividad{
         display: block;
     }
+    .contador {
+        text-align: right;
+    }
+      
     
 
