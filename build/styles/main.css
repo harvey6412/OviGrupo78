@@ -25,17 +25,18 @@ a {
 header {
   background-color: #7aa8dc;
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 .logo {
-  width: 30%
+  width: 30%;
+  padding: 8px 0%;
 }
 
 .logo a img {
   width: 80px;
   height: auto;
-  margin-left: 15px
+  margin-left: 15px;
 }
 
 .menu {
@@ -60,7 +61,7 @@ header {
 
 .sub-menu {
   position: absolute;
-  top: 50px;
+  top: 53px;
   left: 0;
   list-style: none;
   background-color: #7aa8dc;
@@ -85,4 +86,39 @@ header {
   opacity: .8;
   visibility: visible;
 
+}
+/*--------------------------footer---------------------------------*/
+footer{
+  background: #333;
+  color: #FFF;  
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  
+  }
+.footer-img{
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;  
+}
+.footer-img img{
+    width: 35%;
+  }
+
+ .footer-text{
+  text-align:left;
+  display: block;
+  font-size:16px;
+  width: 50%;
+
+}
+.content-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 5%;
+}
+.footer-text p{
+ line-height: 2px;
 }
