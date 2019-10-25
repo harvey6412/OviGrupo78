@@ -1,17 +1,21 @@
 const gulp = require('gulp'),
-    htmlPartial = require('gulp-html-partial'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
+    fileinclude = require('gulp-file-include'),
     cssnano = require('cssnano');
 
-function html() {
-    return gulp.src(['src/**/*.html'])
-        .pipe(htmlPartial({
-            basePath: 'src/partials/'
-        }))
-        .pipe(gulp.dest('build'));
-};
+const baseSrcPath = './src/**/*.html';
+const baseDistPath = './build';
 
+
+function html() {
+    return gulp.src([baseSrcPath])
+        .pipe(fileinclude({
+            prefix: '@@',
+            basepath: '@file'
+        }))
+        .pipe(gulp.dest(baseDistPath));
+};
 
 function css() {
     var plugins = [
@@ -20,7 +24,7 @@ function css() {
     ];
     return gulp.src('./src/styles/*.css')
     .pipe(postcss(plugins))
-    .pipe(gulp.dest('./build/styles'));
+    .pipe(gulp.dest('./build/assets/styles'));
 }
 
 function watch() {

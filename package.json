@@ -10,11 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "cssnano": "^4.1.10",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.5",
-    "gulp-html-partial": "^1.0.1",
     "gulp-postcss": "^8.0.0"
   }
 }
