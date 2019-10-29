@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +8,150 @@
   <title>D_S_W</title>
   <link rel="stylesheet" type="text/css" href="../assets/styles/main.css">
 </head>
+
 <body>
-<header>
-  
-  <nav class="container row vertical-align">
-    <div class="logo">
-      <a href="../index.html"><img src="../assets/images/Logo_unad.png" alt=""> </a>
+  <header>
+
+    <nav class="container row vertical-align">
+      <div class="logo">
+        <a href="../index.html"><img src="../assets/images/Logo_unad.png" alt=""> </a>
+      </div>
+      <ul class="row menu">
+
+        <li> <a href="../index.html">Inicio</a> </li>
+        <li>Lecturas
+          <ul class="sub-menu">
+            <li><a href="../lecturas/lec_1_intro_html.html"> Introducción html </a> </li>
+            <li><a href="../lecturas/lec_2.html">Navegación interna y externa</a> </li>
+            <li><a href="../lecturas/lec_3.html">Contenido de Html</a></li>
+            <li><a href="../lecturas/lec_4.html">CSS3</a></li>
+            <li><a href="../lecturas/lec_5.html">Propiedade de CSS3</a></li>
+          </ul>
+        </li>
+        <li>Multimedia
+          <ul class="sub-menu">
+            <li> <a href="../multimedia/videos.html">Videos</a> </li>
+            <li> <a href="../multimedia/imagenes.html">Imagenes</a> </li>
+          </ul>
+        </li>
+        <li> Actividades
+          <ul class="sub-menu">
+            <li><a href="../actividades/act_1.html">Actividad 1</a></li>
+            <li><a href="../actividades/act_2.html">Actividad 2</a></li>
+            <li><a href="../actividades/act_3.html">Actividad 3</a></li>
+          </ul>
+        </li>
+        <li> <a href="../autores.html">Autores</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <section class="section-content container">
+    <div class="description">
+      <h1>Propiedades y selectores <br> css</h1>
+      <ul>
+        <p>
+          <b></b>SELECTOR:</b>
+          define a los elementos HTML que se quieren realzar, estas van seguidas de una llave de apertura “{“ y otra de
+          cierre “}”.
+           <br> <br>
+        <p>
+        <p>
+          Propiedad: es el tipo de estilo que se va a darle al elemento HTML, seguido de dos puntos (:). La propiedad
+          debe ir dentro de las llaves {}, se puede agregar más de una propiedad en un selector eso depende de cómo se
+          vaya mostrar el elemento de HTML.<br>
+          Las Propiedades básicas de HTML son:
+
+          <center> Propiedad fuente </center>
+          <center> Propiedad Color  </center>
+          <center> Propiedad Fondo  </center>
+          <center> propiedad texto </center>
+          <center> propiedad  borde </center>
+          
+        </p> <br>
+        <li>
+          <b> Valor: </b> se define como el estilo que se desea para el elemento HTML. Esta va seguida de un punto y coma.
+
+        </li><br> <br>
+         
+        <li>
+            La propiedad <b>float </b> para darle posicion a un texto o imagen es decir dejarlo in texto a la izquiera y una imagen a la derecha de una pagina. <br> los siguientes valores son los mas usados:
+             <ul class="styles-li">          
+              <li><b>left:</b> el Contenido flota a la izquierda</li>
+              <li><b>right:</b>:el Contenido flota a la derecha </li>
+              <li><b>none:</b>el contenido no flota se queda como esta.</li>
+            </ul>
+        </li> <br> <br>
+        <li>
+            La propiedad <b> position </b> es donde se define el tipo de posicion que se quiere dar a un elemento <br> 
+             <ul class="styles-li">          
+              <li><b>static:</b> el elemeto se queda inmovil</li>
+              <li><b>relative:</b>: se adapta al espacio dependiendo el elemento </li>
+              <li><b>fixed:</b> permanece en el mismo lugar asi si la pagina de desplaza y no deja espacios</li>
+              <li><b>absolute: su ubicaion es exacta sin afectar el contenido de la pagina.</b>el contenido no flota se queda como esta.
+              </li>              
+            </ul>
+        </li> <br> <br>
+        <li>
+            La propiedad <b>Overflow </b> hace que el contenido cuando es muy grande se ajuste o en su defecto especifica si se debe hacer algún cambio como recortar o agregar barras que ayuden con el desplazamiento del mismo. <br> 
+             
+        </li>
+      </li>
+      <br>
+      <br>
+      <b>Referencias Bibligraficas de CSS</b>
+    <p>
+        Perálvarez.D.2016. CSS Inline, Interno y Externo. Recuperado de: <br>
+        <a href="www.youtube.com/watch?time_continue=41&v=MzEBxbFYEys">www.youtube.com/watch?time_continue=41&v=MzEBxbFYEys</a>  
+        <br>
+        w3c.2019.Introduccion css.Recuperado de: <br>
+        <a href=" www.w3schools.com/css/css_intro.asp"> www.w3schools.com/css/css_intro.asp"</a>
+        <br>        
+        w3c.2019.selectores de css. Recuperado de: <br>
+        <a href="https://www.w3schools.com/cssref/css_selectors.asp">https://www.w3schools.com/cssref/css_selectors.asp</a> 
+        <br>
+        w3c.propiedadescss. Recuperado de:
+        <a href="https://www.w3schools.com/cssref/default.asp"></a> https://www.w3schools.com/cssref/default.asp <br>
+        
+        <br>
+    </p>
+
     </div>
-    <ul class="row menu">
+    
+    <aside>
+      <div class="aside-twiter">
+        <br>
+        <p> Bienvenido a mi pagina eres el visitante numero:<br>
+          <a href="https://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img
+              src="https://counter10.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=6zc5rjtbf4jnm6grnu3q8x6mmlcz157l"
+              border="0" title="contador de visitas gratis" alt="contador de visitas gratis"></a>
+        </p>
+      </div>
+      <div class="aside-texto">
 
-      <li> <a href="../index.html">Inicio</a> </li>
-      <li>Lecturas
-        <ul class="sub-menu">
-          <li><a href="../lecturas/lec_1_intro_html.html"> Introducción html </a> </li>
-          <li><a href="../lecturas/lec_2.html">Lectura 2</a> </li>
-          <li><a href="../lecturas/lec_3.html">Lectura 3</a></li>
-          <li><a href="../lecturas/lec_4.html">Lectura 4</a></li>
-          <li><a href="../lecturas/lec_5.html">Lectura 5</a></li>
-        </ul>
-      </li>
-      <li>Multimedia
-      <ul class="sub-menu">
-        <li> <a href="../multimedia/videos.html">Videos</a> </li>
-        <li> <a href="../multimedia/imagenes.html">Imagenes</a> </li>
-      </ul>
-      </li>
-      <li> Actividades
-      <ul class="sub-menu">
-        <li><a href="../actividades/act_1.html">Actividad 1</a></li>
-        <li><a href="../actividades/act_2.html">Actividad 2</a></li>
-        <li><a href="../actividades/act_3.html">Actividad 3</a></li>
-      </ul>
-    </li>
-      <li> <a href="../autores.html">Autores</a></li>
-    </ul>
+        <a class="twitter-timeline" data-lang="es" data-width="300" data-height="400" data-theme="light"
+          data-link-color="#2B7BB9" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by
+          UniversidadUNAD</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  </nav>
-
-</header>
-
-Lectura 5
-<footer>
+      </div>
+    </aside>
+  </section>
+  <footer>
     <div class="container content-footer">
-        <div class="footer-text">
-                <p>Universidad Nacional Abierta y a Distancia </p>
-                <p>Escuela de Ciencias Básicas Tecnología e Ingenieria</p>
-                <p>Grupo-78</p>
-            </div>
-    <div class="footer-img">
+      <div class="footer-text">
+        <p>Universidad Nacional Abierta y a Distancia </p>
+        <p>Escuela de Ciencias Básicas Tecnología e Ingenieria</p>
+        <p>Grupo-78</p>
+      </div>
+      <div class="footer-img">
         <img src="../assets/images/logo-white.png" alt="">
+      </div>
     </div>
-</div>
-   
-</footer>
+
+  </footer>
 </body>
 
 </html>
