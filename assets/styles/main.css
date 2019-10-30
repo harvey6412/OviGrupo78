@@ -92,7 +92,7 @@ header {
 
 .menu li:hover>.sub-menu {
   display: block;
-  opacity: .8;
+  opacity: 1;
   visibility: visible
 }
 
