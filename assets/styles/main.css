@@ -182,5 +182,36 @@ h2 {
 .styles-li{
 list-style: none;
 }
+/*----------------------------Autores---------------------------------------------------------*/
+
+
+.box-autor{
+  width: 40%;
+  background: mintcream;
+	padding: 16px;
+	text-align: center;
+	margin:auto;
+	margin-top: 5%;
+	color:black;
+  font-family: 'century gothic', sans-serif;
+  box-shadow: 2px 4px 10px 0 rgba(0,0,0,.3);
+}
+.box-img{
+	border-radius: 50%;
+	width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.box p{
+	font-size: 20px;
+	letter-spacing: 3px;
+  font-weight: 100;
+  text-align: justify;
+}
+.autor-content{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
 
 
