@@ -186,7 +186,7 @@ list-style: none;
 /*----------------------------Autores---------------------------------------------------------*/
 
 
-.box-autor{
+.box-autor,.box-video{
   width: 40%;
   background: mintcream;
 	padding: 16px;
@@ -209,10 +209,11 @@ list-style: none;
   font-weight: 100;
   text-align: justify;
 }
-.autor-content{
+.autor-content, .video-content{
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 30px;
 }
-
-
+.video-content{
+  width: 100%;
+}
