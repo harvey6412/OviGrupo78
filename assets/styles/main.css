@@ -30,7 +30,7 @@ a {
 }
 
 header {
-  background-color: #7aa8dc;
+  background-color: rgb(179,179,179);
   display: inline-block;
   width: 100%
 }
@@ -98,7 +98,7 @@ header {
 
 
 footer {
-  background: #333;
+  background-color: rgb(00, 88, 131);
   color: #fff;
   width: 100%;
   position: relative;
@@ -144,6 +144,7 @@ footer {
   -webkit-text-stroke-width: thin;
 }
 .section-content .description{
+  
   width: 75%;
   padding: 0 5%;
   text-align: justify;
@@ -155,12 +156,14 @@ footer {
 }
 
 .aside-texto {
+  background-color: rgb(240,180,141);
   display: flex;
   -webkit-text-stroke-width: thin;
   padding: 6px;
 }
 
 .aside-twiter {
+  background-color: rgb(240,180,141);
   display: flex;
   text-align: center;
   padding: 6px;
