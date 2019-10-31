@@ -197,8 +197,14 @@ list-style: none;
   font-family: 'century gothic', sans-serif;
   box-shadow: 2px 4px 10px 0 rgba(0,0,0,.3);
 }
-.box-img{
+.box-img {
 	border-radius: 50%;
+	width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.box-img-multimedia {
+
 	width: 200px;
   height: 200px;
   object-fit: cover;
