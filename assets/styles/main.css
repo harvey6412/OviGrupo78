@@ -120,7 +120,7 @@ footer {
 .footer-text {
   text-align: left;
   display: block;
-  font-size: 16px;
+  font-size: 12px;
   width: 50%
 }
 
@@ -132,7 +132,7 @@ footer {
 }
 
 .footer-text p {
-  line-height: 1em;
+  line-height: 1,5em;
   margin: 0
 }
 
